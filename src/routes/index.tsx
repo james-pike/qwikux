@@ -1,4 +1,4 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, useSignal } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
 import Hero from "~/components/widgets/Hero";
@@ -17,11 +17,15 @@ const IconBrandGoogle = qwikSerialized(() => import("../components/icons/IconBra
 const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 
 import { SITE } from "~/config.mjs";
+import { Button, Drawer, Link } from "flowbite-qwik";
 
 export default component$(() => {
+  const isDrawerOpen = useSignal(false);
+
   return (
     <>
-    <div class="h-[85vh] w-full -mt-20 border-t-2 border-t-blue-800 bg-gradient-to-r from-gray-200 via-blue-200 to-gray-300">
+    <div class="h-[85vh] w-full -mt-20  bg-gradient-to-r from-gray-200 via-blue-200 to-gray-300">
+    
     <Hero />
     </div>
   <div class="pt-60 sm:pt-0"> </div> 

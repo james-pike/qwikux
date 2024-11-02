@@ -40,7 +40,7 @@ export default component$(() => {
         
             <a
                 href="/terms"
-                class="btn btn-primary ml-2 py-2.5 px-4 md:px-6 font-semibold shadow-none text-sm w-auto"
+                class="btn btn-primary bg-primary-800 ml-2 py-2.5 px-4 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
                 Contact Us
               </a>

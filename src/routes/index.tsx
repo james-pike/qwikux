@@ -19,7 +19,7 @@ const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 import { SITE } from "~/config.mjs";
 
 export default component$(() => {
-  const isDrawerOpen = useSignal(false);
+ 
 
   return (
     <>

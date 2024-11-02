@@ -8,8 +8,8 @@ export default component$(() => (
     <img
       src={logoSrc}
       class="inline-block mr-1"
-      width={100}
-      height={64}
+      width={133}
+      height={85}
       alt="Qwind Logo"
       loading="lazy"
     />

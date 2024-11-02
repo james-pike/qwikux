@@ -6,7 +6,7 @@ const coverImage =
 
 export default component$(() => {
   return (
-    <section class="relative md:-mt-[76px] not-prose">
+    <section class="relative mt-20 md:-mt-[76px] not-prose">
       <div class="absolute inset-0 pointer-events-none" aria-hidden="true"></div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
         <div class="pt-0 md:pt-[76px] pointer-events-none"></div>

@@ -21,7 +21,7 @@ import { SITE } from "~/config.mjs";
 export default component$(() => {
   return (
     <>
-    <div class="h-[85vh] w-full bg-gradient-to-r from-gray-200 via-blue-200 to-gray-300">
+    <div class="h-[85vh] w-full -mt-16 border-t-2 border-t-blue-500 bg-gradient-to-r from-gray-200 via-blue-200 to-gray-300">
     <Hero />
     </div>
   <div class="pt-60 sm:pt-0"> </div> 

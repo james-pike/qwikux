@@ -1,13 +1,11 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-
 import Hero from "~/components/widgets/Hero";
 import Features from "~/components/widgets/Features";
 import Steps from "~/components/widgets/Steps";
 import FAQs from "~/components/widgets/FAQs";
 import Stats from "~/components/widgets/Stats";
 import CallToAction from "~/components/widgets/CallToAction";
-
 import { qwikSerialized } from "~/utils/qwikSerialized";
 
 const IconBrandTailwind = qwikSerialized(() => import("../components/icons/IconBrandTailwind"));
@@ -19,12 +17,9 @@ const IconBulb = qwikSerialized(() => import("../components/icons/IconBulb"));
 import { SITE } from "~/config.mjs";
 
 export default component$(() => {
- 
-
   return (
     <>
     <div class="h-[85vh] w-full bg-gradient-to-r from-gray-200 via-blue-200 to-gray-300">
-    
     <Hero />
     </div>
   <div class="pt-60 sm:pt-0"> </div> 

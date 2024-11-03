@@ -39,7 +39,7 @@ export default component$(() => {
             {/* <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" /> */}
         
             <a
-                href="/terms"
+                href="/contact"
                 class="btn btn-primary bg-primary-700 ml-2 py-2.5 px-4 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
                 Contact Us
@@ -90,7 +90,7 @@ export default component$(() => {
             </div>
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
-                href="https://github.com/onwidget/qwind"
+                href="/contact"
                 class="btn btn-primary ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
                 Contact Us

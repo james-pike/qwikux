@@ -41,8 +41,8 @@ export default component$(() => {
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
                     href="/contact"
-                    target="_blank"
-                    rel="noopener"
+                    // target="_blank"
+                    // rel="noopener"
                   >
                     Book Free Consultation
                   </a>

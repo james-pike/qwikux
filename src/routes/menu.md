@@ -1,6 +1,6 @@
 # Menu
 
-## Pages
+## Services
 
 - [Services](#)
 - [Porfolio](#)
@@ -8,4 +8,8 @@
 - [Terms](/terms)
 - [Privacy](/privacy)
 
-## [Blog](/blog)
+## [Cases](/cases)
+
+## [Reviews](/reviews)
+
+## [FAQ](/blog)

@@ -51,16 +51,16 @@ export default component$(() => {
     },
   ];
 
-  const social = [
-    { label: "Twitter", icon: IconTwitter, href: "#" },
-    { label: "Instagram", icon: IconInstagram, href: "#" },
-    { label: "Facebook", icon: IconFacebook, href: "#" },
-    {
-      label: "Github",
-      icon: IconGithub,
-      href: "https://github.com/onwidget/qwind",
-    },
-  ];
+  // const social = [
+  //   { label: "Twitter", icon: IconTwitter, href: "#" },
+  //   { label: "Instagram", icon: IconInstagram, href: "#" },
+  //   { label: "Facebook", icon: IconFacebook, href: "#" },
+  //   {
+  //     label: "Github",
+  //     icon: IconGithub,
+  //     href: "https://github.com/onwidget/qwind",
+  //   },
+  // ];
 
   return (
     <footer class="border-t border-gray-200 dark:border-slate-800">

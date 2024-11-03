@@ -14,8 +14,8 @@ export default component$(() => {
         { title: "Features", href: "#" },
         { title: "Security", href: "#" },
         { title: "Team", href: "#" },
-        { title: "Enterprise", href: "#" },
-        { title: "Customer stories", href: "#" },
+     
+       
       
       ],
     },
@@ -25,7 +25,7 @@ export default component$(() => {
         { title: "Developer API", href: "#" },
         { title: "Partners", href: "#" },
         { title: "Atom", href: "#" },
-        { title: "Electron", href: "#" },
+
 
       ],
     },
@@ -35,7 +35,7 @@ export default component$(() => {
         { title: "Docs", href: "#" },
         { title: "Community Forum", href: "#" },
         { title: "Professional Services", href: "#" },
-        { title: "Skills", href: "#" },
+    
 
       ],
     },
@@ -45,7 +45,7 @@ export default component$(() => {
         { title: "About", href: "#" },
         { title: "Blog", href: "#" },
         { title: "Careers", href: "#" },
-        { title: "Press", href: "#" },
+ 
 
       ],
     },
@@ -69,7 +69,7 @@ export default component$(() => {
           <div class="col-span-12 lg:col-span-4 pr-8">
             <div class="mb-2">
               <Link class="inline-block font-bold text-xl" href={"/"}>
-                Qwind
+                Pike Family Law
               </Link>
             </div>
             <div class="text-sm text-gray-600 dark:text-gray-400">
@@ -98,7 +98,7 @@ export default component$(() => {
           ))}
         </div>
         <div class="md:flex md:items-center md:justify-between py-6 md:py-8">
-          <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
+          {/* <ul class="flex mb-4 md:order-1 -ml-2 md:ml-4 md:mb-0">
             {social.map(({ label, href, icon: Icon }, index) => (
               <li key={index}>
                 <Link
@@ -111,7 +111,7 @@ export default component$(() => {
                 </Link>
               </li>
             ))}
-          </ul>
+          </ul> */}
 
           <div class="text-sm text-gray-700 mr-4 dark:text-slate-400">
             <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 float-left rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>

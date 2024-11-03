@@ -16,7 +16,7 @@ export default component$(() => {
   return (
     <header
       id="header"
-      class={`sticky top-0 z-40 bg-gradient-to-r from-blue-300 to-slate-300 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${
+      class={`sticky top-0 z-40 bg-gradient-to-r from-blue-200 to-slate-300 flex-none mx-auto w-full border-b border-gray-50/0 transition-[opacity] ease-in-out ${
         store.isScrolling
           ? " md:bg-white/90 md:backdrop-blur-sm dark:md:bg-slate-900/90 bg-white dark:bg-slate-900"
           : ""
@@ -40,7 +40,7 @@ export default component$(() => {
         
             <a
                 href="/terms"
-                class="btn btn-primary bg-primary-800 ml-2 py-2.5 px-4 md:px-6 font-semibold shadow-none text-sm w-auto"
+                class="btn btn-primary bg-primary-700 ml-2 py-2.5 px-4 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
                 Contact Us
               </a>

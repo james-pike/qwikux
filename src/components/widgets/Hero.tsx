@@ -40,7 +40,7 @@ export default component$(() => {
                 <div class="flex w-full sm:w-auto">
                   <a
                     class="btn btn-primary sm:mb-0 w-full"
-                    href="https://github.com/onwidget/qwind"
+                    href="/contact"
                     target="_blank"
                     rel="noopener"
                   >

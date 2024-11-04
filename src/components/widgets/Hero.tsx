@@ -27,7 +27,7 @@ export default component$(() => {
             <div class="max-w-3xl mx-auto lg:max-w-none">
               <p class="text-xl text-muted mb-6 dark:text-slate-300">
 {" "}
-                Comprehensive Legal Support specializing in Divorce, Child Custody, Spousal Support, Property Division, Adoption, Mediation and more. Schedule a Free Consultation today!
+                Comprehensive Legal Support specializing in Divorce, Child Custody, Spousal Support, Property Division, Adoption, Mediation and more. 
 
            
           
@@ -44,7 +44,7 @@ export default component$(() => {
                     // target="_blank"
                     // rel="noopener"
                   >
-                    Book Free Consultation
+                    Book A Free Consultation
                   </a>
                 </div>
                 <div class="flex w-full sm:w-auto">

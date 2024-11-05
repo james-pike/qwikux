@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         primary: colors.blue,
         secondary: colors.blue,
+        tertiary: colors.red
       },
       fontFamily: {
         sans: ["'Inter Variable'", ...defaultTheme.fontFamily.sans],

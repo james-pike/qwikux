@@ -5,8 +5,10 @@ import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
 
 import Footer from "~/components/widgets/Footer";
-import { Logo } from "~/components/widgets/Logo";
 import IconChevronDown from "~/components/icons/IconChevronDown";
+
+import LogoSVG from "~/components/widgets/logo1.svg";
+import LogoX from "~/components/widgets/LogoX";
 
 
 export default component$(() => {
@@ -38,7 +40,7 @@ export default component$(() => {
         <div class="relative text-default py-2 px-3 md:px-6 mx-auto w-full md:flex md:justify-between max-w-7xl">
           <div class="mr-auto rtl:mr-0 rtl:ml-auto flex justify-between">
             <a class="flex items-center" href={"/"}>
-              <Logo />
+              <LogoX />
             </a>
             <div class="flex items-center md:hidden">
               <a

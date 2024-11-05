@@ -7,7 +7,6 @@ import ToggleMenu from "~/components/common/ToggleMenu";
 import Footer from "~/components/widgets/Footer";
 import IconChevronDown from "~/components/icons/IconChevronDown";
 
-import LogoSVG from "~/components/widgets/logo1.svg";
 import LogoX from "~/components/widgets/LogoX";
 
 
